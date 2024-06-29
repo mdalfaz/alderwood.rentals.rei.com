@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacked by Alfaz</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .background {
+            background-image: url('background.jpg'); /* Replace with your image URL */
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        h1 {
+            font-size: 72px;
+            margin: 0;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        p {
+            font-size: 24px;
+            text-shadow: 2px 2px 4px #000000;
+        }
+
+        audio {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+
+<div class="background">
+    <div class="content">
+        <h1>Hacked by Alfaz</h1>
+        <p>Welcome!</p>
+    </div>
+</div>
+
+<audio controls autoplay loop>
+    <source src="song.mp3" type="audio/mpeg"> <!-- Replace with your song URL -->
+    Your browser does not support the audio element.
+</audio>
+
+</body>
+</html>
